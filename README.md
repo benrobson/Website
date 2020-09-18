@@ -22,12 +22,10 @@
   * Install Ruby `rvm install ruby-2.7.1`
   * Make the Ruby 2.7.1 as the default Ruby version on your system `rvm --default use ruby-2.7.1`
   * Update RubyGem to latest version `gem update --system`
-  * Install Ruby on Rails `gem install rails`
-### Installing MySQL, Redis and Packages
+### Installing Packages & Gems
   * Install NodeJS `sudo apt install nodejs redis libmysqlclient-dev`
-  * Install MySQL `gem install mysql2`
-  * Install nokogiri `gem install nokogiri`
-  * Update bundler and install required gems `bundle update --bundler`
+  * Install Ruby on Rails and other needed gems `gem install rails mysql2 nokogiri`
+  * Update bundler `bundle update --bundler`
 ### Configure database.yml
   * In `config/database.yml` configure the host, database, username and password for MySQL.
   * In `config/avicus.yml` configure the host, port and password for redis.
