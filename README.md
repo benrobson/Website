@@ -25,7 +25,7 @@
 ### Installing Packages & Gems
   * Install NodeJS `sudo apt install nodejs redis libmysqlclient-dev`
   * Install Ruby on Rails and other needed gems `gem install rails mysql2 nokogiri`
-  * Update bundler `bundle update --bundler`
+  * Update bundler `bundle install`
 ### Configure database.yml
   * In `config/database.yml` configure the host, database, username and password for MySQL.
   * In `config/avicus.yml` configure the host, port and password for redis.
