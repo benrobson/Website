@@ -11,6 +11,9 @@
 * When the classes are loaded into the IDE, there will be a lot of unneeded imports, simply run Code -> Reformat Code to fix all errors
 
 ## Installation (Linux)
+### Clone & Preperation
+ * Install git, curl if it is not present on the System already `sudo apt install git curl`
+ * Clone a local copy by running `git clone https://github.com/Avicus/Website`
 ### Installing Ruby
  * Install RVM Ruby Version Manager `gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 \ 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`
   * Download the RVM installer script and install the RVM `curl -sSL https://get.rvm.io | bash -s stable --ruby`
