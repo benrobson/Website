@@ -17,7 +17,7 @@
 ### Installing Ruby
  * Install RVM Ruby Version Manager `gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 \ 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`
   * Download the RVM installer script and install the RVM `curl -sSL https://get.rvm.io | bash -s stable --ruby`
-  * Once all installation is completed, load the RVM `source /usr/local/rvm/scripts/rvm`
+  * Once all installation is completed, load the RVM `source /usr/local/rvm/scripts/rvm` *replace `local` with your home username*
   * Update RVM to latest stable `rvm get stable --autolibs=enable`
   * Install Ruby `rvm install ruby-2.7.1`
   * Make the Ruby 2.7.1 as the default Ruby version on your system `rvm --default use ruby-2.7.1`
