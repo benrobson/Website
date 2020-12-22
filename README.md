@@ -22,8 +22,7 @@
   * Install Ruby on Rails `gem install rails`
 ### Installing MySQL, Redis and Packages
   * Install NodeJS `sudo apt install nodejs redis libmysqlclient-dev`
-  * Install MySQL `gem install mysql2`
-  * Install nokogiri `gem install nokogiri`
+  * Install MySQL and nokogiri  `gem install mysql2 nokogiri`
   * Update bundler and install required gems `bundle update --bundler`
 ### Configure database.yml
   * In `config/database.yml` configure the host, database, username and password for MySQL.
